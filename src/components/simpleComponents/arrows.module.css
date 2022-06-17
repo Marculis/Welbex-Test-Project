@@ -1,0 +1,20 @@
+.arrowDown,
+.arrowUp {
+  position: relative;
+  transition: 0.5s;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.arrowDown:hover,
+.arrowUp:hover {
+  opacity: 1;
+}
+
+.arrowUp {
+  top: -12px;
+  left: 11px;
+}
+.arrowDown {
+  top: 12px;
+  left: -11px;
+}

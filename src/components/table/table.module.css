@@ -1,0 +1,49 @@
+table {
+  margin: 10px auto;
+  font-size: 22px;
+  border: 2px solid #282c34;
+  border-radius: 10px;
+  text-align: center;
+}
+.headRow {
+  position: sticky;
+  top: 0;
+}
+.headRow td {
+  background: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+table tr td {
+  padding: 3px 40px;
+  border-radius: 2px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f4f3f3ce;
+}
+
+table tr:nth-child(even) {
+  background-color: #282c3427;
+}
+
+.arrowDown,
+.arrowUp {
+  position: relative;
+  transition: 0.5s;
+  opacity: 0.3;
+  cursor: pointer;
+}
+.arrowDown:hover,
+.arrowUp:hover {
+  opacity: 1;
+}
+
+.arrowUp {
+  top: -12px;
+  left: 11px;
+}
+.arrowDown {
+  top: 12px;
+  left: -11px;
+}
